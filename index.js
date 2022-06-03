@@ -16,7 +16,7 @@ inquirer.prompt(
         {
             type: 'input',
             message: 'How do you describe your application?',
-            naem: 'description',
+            name: 'description',
             validate: (value) => { if (value) { return true } else { return 'Please answer the question to continue!'}}
         },
 
@@ -90,7 +90,7 @@ inquirer.prompt(
     email
 }) => {
     // template to be used
-    const template = `# ${title}
+    const template = `# ${title.toUpperCase()}
     
     * [License](#license)
     * [Table Of Content](#table)
@@ -101,21 +101,21 @@ inquirer.prompt(
     * [Test](#test)
     #Table Of Content
     ${table}
-    ##Description
+\n##Description
     ${description}
-    ##Installation
+\n##Installation
     ${installation}
-    ###Usage
+\n###Usage
     ${usage}
-    ##Contribution Guidlines
+\n##Contribution Guidlines
     ${contributing}
-    ##Test
+\n##Test
     ${test}
-    #License
+\n#License
     * This application is covered under ${license}.
     
-    #Contact
-    * Github: ${git}
+\n#Contact
+    * [Github](https://github.com/${git})
     * E-mail: ${email}`;
 
     creatingReadmeFile(title, template);

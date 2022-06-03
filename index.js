@@ -99,22 +99,30 @@ inquirer.prompt(
     * [Usage](#usage)
     * [Contributing](#contributing)
     * [Test](#test)
-    #Table Of Content
+    
+## Table Of Content
     ${table}
-\n##Description
+
+## Description
     ${description}
-\n##Installation
+
+## Installation
     ${installation}
-\n###Usage
+
+## Usage
     ${usage}
-\n##Contribution Guidlines
+
+## Contribution Guidlines
     ${contributing}
-\n##Test
+
+## Test
     ${test}
-\n#License
+
+## License
     * This application is covered under ${license}.
     
-\n#Contact
+## Contact
+
     * [Github](https://github.com/${git})
     * E-mail: ${email}`;
 

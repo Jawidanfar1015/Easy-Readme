@@ -117,5 +117,16 @@ inquirer.prompt(
     #Contact
     * Github: ${git}
     * E-mail: ${email}`;
+
+    creatingReadmeFile(title, template);
 }
-)
+);
+// creating a readme file with the given information
+function creatingReadmeFile(fileName, data){
+    fs.writeFile(`./${fileName.toLowerCase().split(' ').join('')}.md`,data, (err) =>{
+        if (err){
+            console.log(err);
+        }
+        console.log('Your readme has been succesfully generated ;)');
+    })
+}

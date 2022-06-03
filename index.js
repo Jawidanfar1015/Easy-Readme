@@ -2,9 +2,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// prompt for the inut
+// prompts for the input
 
-inquirer.prompt{
+inquirer.prompt(
     [
         {
             type: 'input',
@@ -75,6 +75,47 @@ inquirer.prompt{
             message: 'What is your E-mail?',
             name: 'email',
             validate: (value) => { if (value) { return true } else {return 'Please answer the question to continue!'}},
-        },
+        }
     ]
+).then(({
+    title,
+    description,
+    table,
+    installation,
+    usage,
+    license,
+    contributing,
+    test,
+    git,
+    email
+}) => {
+    // template to be used
+    const template = `# ${title}
+    
+    * [License](#license)
+    * [Table Of Content](#table)
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contributing](#contributing)
+    * [Test](#test)
+    #Table Of Content
+    ${table}
+    ##Description
+    ${description}
+    ##Installation
+    ${installation}
+    ###Usage
+    ${usage}
+    ##Contribution Guidlines
+    ${contributing}
+    ##Test
+    ${test}
+    #License
+    * This application is covered under ${license}.
+    
+    #Contact
+    * Github: ${git}
+    * E-mail: ${email}`;
 }
+)

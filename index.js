@@ -125,8 +125,8 @@ inquirer.prompt(
     
 # Contact
 
-    * [Github](https://github.com/${git})
-    * E-mail: ${email}`;
+* [Github](https://github.com/${git})
+* E-mail: ${email}`;
 
     creatingReadmeFile(title, template);
 }

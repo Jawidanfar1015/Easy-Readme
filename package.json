@@ -1,0 +1,23 @@
+{
+  "name": "easy-readme",
+  "version": "1.0.0",
+  "description": "![view1](./images/MIT-License.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jawidanfar1015/Easy-Readme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jawidanfar1015/Easy-Readme/issues"
+  },
+  "homepage": "https://github.com/Jawidanfar1015/Easy-Readme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

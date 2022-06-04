@@ -38,5 +38,5 @@
 
 # Contact
 
-    * [Github](https://github.com/jawidanfar1015)
-    * E-mail: hajikaka4030@gmail.com
+* [Github](https://github.com/jawidanfar1015)
+* E-mail: hajikaka4030@gmail.com

@@ -83,45 +83,47 @@ inquirer.prompt(
     email
 }) => {
     // template to be used
-    const template = `# ${title.toUpperCase()}      ![view1](./images/${license}.png)
+    const template = `# ${title.toUpperCase()}      
+    
+![view1](./images/${license}.png)
 
-## Table Of Content
+# Table Of Content
      
-    * [Description](#Description)
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [Contributing](#Contributing)
-    * [Test](#test)
-    * [License](#License)
-    * [Contact](#Contact)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Test](#test)
+* [License](#License)
+* [Contact](#Contact)
     
 
 
-## Description
+# Description
 
     ${description}
 
-## Installation
+# Installation
 
     ${installation}
 
-## Usage
+# Usage
 
     ${usage}
 
-## Contributing
+# Contributing
 
     ${contributing}
 
-## Test
+# Test
 
     ${test}
 
-## License
+# License
 
     * This application is covered under ${license}.
     
-## Contact
+# Contact
 
     * [Github](https://github.com/${git})
     * E-mail: ${email}`;
@@ -131,7 +133,7 @@ inquirer.prompt(
 );
 // creating a readme file with the given information
 function creatingReadmeFile(fileName, data){
-    fs.writeFile(`./${fileName.toLowerCase().split(' ').join('')}.md`,data, (err) =>{
+    fs.writeFile(`./${fileName.toUpperCase().split(' ').join('')}.md`,data, (err) =>{
         if (err){
             console.log(err);
         }

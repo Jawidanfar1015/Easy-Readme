@@ -121,11 +121,12 @@ inquirer.prompt(
 
 # License
 
-    * This application is covered under ${license}.
+* This application is covered under ${license}.
     
 # Contact
 
 * [Github](https://github.com/${git})
+
 * E-mail: ${email}`;
 
     creatingReadmeFile(title, template);

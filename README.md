@@ -14,29 +14,30 @@
 
 # Description
 
-    This is a readme generator app which was built with node.js
+    This is a readme generator apllication, which built with Node.js and run in command line.
 
 # Installation
 
-    You need to run it in a terminal, git bash, or a linux.
+    You can download the file in your computer and run into the command line.
 
 # Usage
 
-    As you run the app you wil face with some prompt, after answering those prompts, it will generate a readme flile for you.
+    Use the command line (Terminal, Git bush, linux) in your computer to run the programm by typing "run index.js" command, you will face a series of questions after answering the question it will generate a readme file for you.
 
 # Contributing
 
-    It's safe to use with no specific guidelines
+    Contributions are welcome via GitHub Pull Requests. This document outlines the process to help get your contribution accepted.
+    Any type of contribution is welcome; from new features, bug fixes or documentation improvements.
 
 # Test
 
-    By checking the answer printed properly.
+    Open the generated readme file and check if your answers applied properly.
 
 # License
 
-    * This application is covered under MIT-License.
+- This application is covered under GNU-License.
 
 # Contact
 
-* [Github](https://github.com/jawidanfar1015)
-* E-mail: hajikaka4030@gmail.com
+- [Github](https://github.com/jawidanfar1015)
+- E-mail: jawidnoori1015@gmail.com

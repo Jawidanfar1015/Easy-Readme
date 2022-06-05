@@ -22,7 +22,8 @@
 
 # Usage
 
-    Use the command line (Terminal, Git bush, linux) in your computer to run the programm by typing "run index.js" command, you will face a series of questions after answering the question it will generate a readme file for you.
+- [Video](https://drive.google.com/file/d/1X9cRQGHdwDr8cEZCXUBTp4V9V9urPT3v/view)
+- Use the command line (Terminal, Git bssh, linux) in your computer to run the application by running the "node index.js" command, you will face a series of questions after answering the question it will generate a readme file for you.
 
 # Contributing
 
@@ -31,7 +32,7 @@
 
 # Test
 
-    Open the generated readme file and check if your answers applied properly.
+    Open the generated readme file and check if your answers were applied properly.
 
 # License
 
@@ -40,4 +41,4 @@
 # Contact
 
 - [Github](https://github.com/jawidanfar1015)
-- E-mail: jawidnoori1015@gmail.com
+- E-mail: hajikaka4030@gmail.com

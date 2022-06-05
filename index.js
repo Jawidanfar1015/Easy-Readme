@@ -62,7 +62,7 @@ inquirer.prompt(
             name: 'git',
             validate: (value) => { if (value) { return true } else {return 'Please answer the question to continue!'}},
         },
-
+        
         {
             type: 'input',
             message: 'What is your E-mail?',

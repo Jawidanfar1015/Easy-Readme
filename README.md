@@ -36,7 +36,7 @@
 
 # License
 
-- This application is covered under GNU-License.
+- This application is covered under MIT-License.
 
 # Contact
 
